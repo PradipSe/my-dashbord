@@ -4,6 +4,7 @@ import Header from './component/header';
 import SideBar from './component/sidebar';
 import ListItem from './component/ListItem'
 import Dashbord from './component/dashbord'
+import FolderItem from './component/FolderItem'
 
 import { Flexwrapper, MainWrapper } from './style'
 
@@ -16,6 +17,8 @@ function App() {
         <MainWrapper>
           <Dashbord />
           <ListItem />
+          <br/><br/>
+          <FolderItem />
         </MainWrapper>
       </Flexwrapper>
     </div>
