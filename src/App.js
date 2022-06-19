@@ -3,6 +3,7 @@ import './App.css';
 import Header from './component/header';
 import SideBar from './component/sidebar';
 import ListItem from './component/ListItem'
+import Dashbord from './component/dashbord'
 
 import { Flexwrapper, MainWrapper } from './style'
 
@@ -13,6 +14,7 @@ function App() {
       <Flexwrapper>
         <SideBar />
         <MainWrapper>
+          <Dashbord />
           <ListItem />
         </MainWrapper>
       </Flexwrapper>

@@ -65,6 +65,7 @@ export const SearchIcon = styled.span`
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
 `
 
 export const ProfileDetails = styled.div`
